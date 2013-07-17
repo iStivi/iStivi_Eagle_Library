@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.000000123031" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -283,6 +283,46 @@
 <wire x1="0.0625125" y1="-5.861959375" x2="0.5705125" y2="-5.480959375" width="0.127" layer="21"/>
 <text x="0.4435125" y="-4.718959375" size="1.27" layer="21">1</text>
 </package>
+<package name="IV-18_SQUARE_SPREAD">
+<description>&lt;b&gt;IV-18&lt;/b&gt;
+&lt;p&gt;
+pins spread right out to make it easy to sent traces around for rough protoype board</description>
+<wire x1="4.953" y1="3.175" x2="3.937" y2="3.175" width="0.127" layer="21"/>
+<wire x1="3.937" y1="3.175" x2="3.937" y2="-1.651" width="0.127" layer="21"/>
+<wire x1="3.937" y1="-1.651" x2="4.953" y2="-1.651" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="1.905" x2="-0.635" y2="5.461" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="5.461" x2="-0.127" y2="4.953" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="5.461" x2="-1.143" y2="4.953" width="0.127" layer="21"/>
+<circle x="-0.635" y="0.635" radius="6.0973" width="0.127" layer="21"/>
+<circle x="-0.635" y="0.635" radius="6.858" width="0.127" layer="21"/>
+<pad name="17" x="-11.43" y="2.54" drill="0.6" diameter="1.6764"/>
+<pad name="1" x="-0.635" y="-11.43" drill="0.6" diameter="1.6764" shape="square" first="yes"/>
+<pad name="12" x="-0.635" y="12.065" drill="0.6" diameter="1.6764"/>
+<pad name="18" x="-11.43" y="-1.27" drill="0.6" diameter="1.6764"/>
+<pad name="20" x="-11.43" y="-8.89" drill="0.6" diameter="1.6764"/>
+<pad name="21" x="-8.255" y="-11.43" drill="0.6" diameter="1.6764"/>
+<pad name="22" x="-4.445" y="-11.43" drill="0.6" diameter="1.6764"/>
+<pad name="2" x="3.175" y="-11.43" drill="0.6" diameter="1.6764"/>
+<pad name="3" x="6.985" y="-11.43" drill="0.6" diameter="1.6764"/>
+<pad name="4" x="10.795" y="-8.89" drill="0.6" diameter="1.6764"/>
+<pad name="5" x="10.795" y="-5.08" drill="0.6" diameter="1.6764"/>
+<pad name="10" x="6.985" y="12.065" drill="0.6" diameter="1.6764"/>
+<pad name="16" x="-11.43" y="6.35" drill="0.6" diameter="1.6764"/>
+<pad name="14" x="-8.255" y="12.065" drill="0.6" diameter="1.6764"/>
+<pad name="13" x="-4.445" y="12.065" drill="0.6" diameter="1.6764"/>
+<pad name="15" x="-11.43" y="10.16" drill="0.6" diameter="1.6764"/>
+<pad name="11" x="3.175" y="12.065" drill="0.6" diameter="1.6764"/>
+<pad name="9" x="10.795" y="10.16" drill="0.6" diameter="1.6764"/>
+<pad name="19" x="-11.43" y="-5.08" drill="0.6" diameter="1.6764"/>
+<text x="3.429" y="-1.397" size="0.8128" layer="21" font="vector" rot="R90">display</text>
+<text x="4.699" y="0.127" size="0.8128" layer="21" font="vector" rot="R90">nc</text>
+<text x="-1.905" y="2.159" size="0.8128" layer="21" font="vector" rot="R90">u</text>
+<text x="-1.905" y="3.683" size="0.8128" layer="21" font="vector" rot="R90">p</text>
+<wire x1="-1.27" y1="-5.08" x2="-1.27" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-5.08" x2="-1.778" y2="-4.699" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-5.08" x2="-0.762" y2="-4.699" width="0.127" layer="21"/>
+<text x="-0.889" y="-3.937" size="1.27" layer="21">1</text>
+</package>
 </packages>
 <symbols>
 <symbol name="IN-1">
@@ -476,7 +516,7 @@
 <gate name="G$1" symbol="IN-1" x="0" y="0"/>
 </gates>
 <devices>
-<device name="IN-1" package="IN-1">
+<device name="&quot;" package="IN-1">
 <connects>
 <connect gate="G$1" pin="0" pad="0"/>
 <connect gate="G$1" pin="1" pad="1"/>
@@ -502,7 +542,7 @@
 <gate name="G$1" symbol="IN-12A" x="2.54" y="0"/>
 </gates>
 <devices>
-<device name="IN-12" package="IN-12">
+<device name="-IN-12" package="IN-12">
 <connects>
 <connect gate="G$1" pin="0" pad="0"/>
 <connect gate="G$1" pin="1" pad="1"/>
@@ -556,7 +596,7 @@
 <gate name="G$1" symbol="LS026" x="5.08" y="0"/>
 </gates>
 <devices>
-<device name="IV-18" package="IV-18">
+<device name="&quot;" package="IV-18">
 <connects>
 <connect gate="G$1" pin="1" pad="15"/>
 <connect gate="G$1" pin="2" pad="22"/>
@@ -609,6 +649,32 @@
 </technologies>
 </device>
 <device name="-LONGPAD" package="IV-19_SQUARE_LONG">
+<connects>
+<connect gate="G$1" pin="1" pad="15"/>
+<connect gate="G$1" pin="2" pad="22"/>
+<connect gate="G$1" pin="3" pad="16"/>
+<connect gate="G$1" pin="4" pad="21"/>
+<connect gate="G$1" pin="5" pad="17"/>
+<connect gate="G$1" pin="6" pad="20"/>
+<connect gate="G$1" pin="7" pad="19"/>
+<connect gate="G$1" pin="8" pad="18"/>
+<connect gate="G$1" pin="9" pad="14"/>
+<connect gate="G$1" pin="A" pad="12"/>
+<connect gate="G$1" pin="B" pad="10"/>
+<connect gate="G$1" pin="C" pad="4"/>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="E" pad="5"/>
+<connect gate="G$1" pin="F" pad="11"/>
+<connect gate="G$1" pin="G" pad="9"/>
+<connect gate="G$1" pin="GND" pad="13"/>
+<connect gate="G$1" pin="H" pad="2"/>
+<connect gate="G$1" pin="VBIAS" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-SPREAD" package="IV-18_SQUARE_SPREAD">
 <connects>
 <connect gate="G$1" pin="1" pad="15"/>
 <connect gate="G$1" pin="2" pad="22"/>
