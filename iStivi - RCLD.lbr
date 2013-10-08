@@ -322,12 +322,6 @@ grid 2.032 mm, diameter 5 mm</description>
 <text x="2.54" y="1.016" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="2.54" y="-2.159" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.016" x2="0.762" y2="1.016" layer="51"/>
-<polygon width="0.127" layer="43">
-<vertex x="-2.54" y="0" curve="-90"/>
-<vertex x="0" y="2.54" curve="-90"/>
-<vertex x="2.54" y="0" curve="-90"/>
-<vertex x="0" y="-2.54" curve="-90"/>
-</polygon>
 <rectangle x1="-1.778" y1="-0.762" x2="1.778" y2="0.762" layer="41"/>
 </package>
 <package name="E3,5-8">
