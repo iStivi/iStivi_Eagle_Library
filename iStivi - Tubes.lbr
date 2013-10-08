@@ -203,8 +203,8 @@
 <wire x1="-0.635" y1="0.635" x2="0.635" y2="0.635" width="0.0508" layer="21" curve="270" cap="flat"/>
 <circle x="0" y="0" radius="1.796" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="1.4199" width="0.127" layer="21"/>
-<pad name="A" x="0" y="2.5" drill="0.7" diameter="1.4224" shape="octagon"/>
-<pad name="K" x="0" y="-2.5" drill="0.7" diameter="1.4224" shape="octagon"/>
+<pad name="A" x="0" y="2.5" drill="0.7" diameter="1.8" shape="octagon"/>
+<pad name="K" x="0" y="-2.5" drill="0.7" diameter="1.8"/>
 <text x="-2.159" y="-2.639" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="1.905" y="2.409" size="1.27" layer="21">A</text>
 <text x="1.905" y="-3.163" size="1.27" layer="21">K</text>
