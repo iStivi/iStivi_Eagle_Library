@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
@@ -171,9 +171,9 @@ distributor RS Components</description>
 <text x="-2.54" y="-9.525" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-3.556" y1="-6.858" x2="3.556" y2="6.858" layer="43"/>
 <rectangle x1="-3.556" y1="-6.858" x2="3.556" y2="6.858" layer="41"/>
-<wire x1="-0.5" y1="0" x2="0.5" y2="0" width="1" layer="46"/>
-<wire x1="-0.5" y1="-4.0132" x2="0.5" y2="-4.0132" width="1" layer="46"/>
-<wire x1="-0.5" y1="4.0132" x2="0.5" y2="4.0132" width="1" layer="46"/>
+<wire x1="-0.5" y1="0" x2="0.5" y2="0" width="1.5" layer="46"/>
+<wire x1="-0.5" y1="-4.0132" x2="0.5" y2="-4.0132" width="1.5" layer="46"/>
+<wire x1="-0.5" y1="4.0132" x2="0.5" y2="4.0132" width="1.5" layer="46"/>
 </package>
 <package name="TACTILE_SWITCH_SMD">
 <description>Tactile Momentary switch, SMD</description>
