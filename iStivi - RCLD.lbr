@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1070,8 +1070,8 @@ Basic small signal diode good up to 200mA. SMB footprint. Common part #: BAS16</
 <circle x="0" y="0" radius="3.5" width="0.127" layer="21"/>
 <pad name="P$1" x="-1.5" y="0" drill="0.8" diameter="1.5"/>
 <pad name="P$2" x="1.5" y="0" drill="0.8" diameter="1.5"/>
-<text x="3.81" y="1.27" size="1.27" layer="21">&gt;NAME</text>
-<text x="3.81" y="-2.54" size="1.27" layer="21">&gt;VALUE</text>
+<text x="3.81" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="3.81" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="MSD1260">
 <description>MSD1260 Coilcraft Coupled Inductor package</description>
