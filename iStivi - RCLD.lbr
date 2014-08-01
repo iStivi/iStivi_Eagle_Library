@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -883,9 +883,9 @@ distributor Schukat</description>
 <wire x1="-3.81" y1="3.429" x2="-3.81" y2="-1.524" width="0.1524" layer="21"/>
 <circle x="0" y="0" radius="2.032" width="0.1524" layer="51"/>
 <circle x="0" y="0" radius="1.27" width="0.1524" layer="51"/>
-<pad name="S" x="0" y="2.54" drill="0.8" diameter="1.8"/>
-<pad name="A" x="-2.54" y="-2.54" drill="0.8" diameter="1.8" rot="R90"/>
-<pad name="E" x="2.54" y="-2.54" drill="0.8" diameter="1.8" rot="R90"/>
+<pad name="S" x="0" y="2.54" drill="0.9" diameter="1.8"/>
+<pad name="A" x="-2.54" y="-2.54" drill="0.9" diameter="1.8" rot="R90"/>
+<pad name="E" x="2.54" y="-2.54" drill="0.9" diameter="1.8" rot="R90"/>
 <text x="-2.54" y="4.191" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.81" y="-5.461" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.508" y1="-3.048" x2="3.683" y2="-2.032" layer="51"/>
